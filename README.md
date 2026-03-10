@@ -4,3 +4,6 @@ Proyecto desarrollado con Spring Boot y JPA.
 
 ## Video Explicativo
 https://drive.google.com/file/d/1Rn_inmf85x6DpmvwNG7JuxtNn4i7reQg/view?usp=sharing
+
+## Comentario
+Disculpe profesor en una parte de mi video se corta la grabación y no me di cuenta hasta después y donde le muestro y explico  que puedo editar en mi base de datos sale cortado y solo aparece que digo que ahí estarían los nombres que así aparecen ya de nuevo disculpe y quería comentárselo por cualquier cosa, muchas gracias por su comprensión. 
