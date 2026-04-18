@@ -16,7 +16,7 @@ Tecnologías:
 Endpoints disponibles en:
 http://localhost:8080/swagger-ui.html
 
-## Desafío Práctico 1
+# Desafío Práctico 1
 Desafíos de laboratorio de DWF
 Proyecto desarrollado con Spring Boot y JPA.
 
