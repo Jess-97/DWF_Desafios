@@ -4,7 +4,7 @@ Sistema de Gestión Escolar con API REST utilizando Spring Boot y MySQL
 ## Video Explicativo
 https://drive.google.com/file/d/1zmfNhKDqRzy82S_xZHS3sW4rDO7QlP0S/view?usp=sharing
 
-##Sistema Escolar API
+Sistema Escolar API
 
 Este proyecto permite gestionar alumnos, profesores y materias.
 
