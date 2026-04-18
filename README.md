@@ -4,7 +4,19 @@ Sistema de Gestión Escolar con API REST utilizando Spring Boot y MySQL
 ## Video Explicativo
 https://drive.google.com/file/d/1zmfNhKDqRzy82S_xZHS3sW4rDO7QlP0S/view?usp=sharing
 
-# Desafío Práctico 1
+##Sistema Escolar API
+
+Este proyecto permite gestionar alumnos, profesores y materias.
+
+Tecnologías:
+- Spring Boot
+- MySQL (XAMPP)
+- Swagger
+
+Endpoints disponibles en:
+http://localhost:8080/swagger-ui.html
+
+## Desafío Práctico 1
 Desafíos de laboratorio de DWF
 Proyecto desarrollado con Spring Boot y JPA.
 
