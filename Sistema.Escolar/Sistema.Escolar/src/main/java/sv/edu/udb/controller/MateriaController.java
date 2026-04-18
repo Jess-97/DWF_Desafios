@@ -4,33 +4,35 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import sv.edu.udb.model.Materia;
 import sv.edu.udb.service.MateriaService;
+import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/materias")
+@RequestMapping("/api/materias")
 public class MateriaController {
 
     @Autowired
-    private MateriaService service;
+    private MateriaService materiaService;
 
     @GetMapping
-    public List<Materia> listar() {
-        return service.listar();
+    public ResponseEntity<List<Materia>> listar() {
+        return ResponseEntity.ok(materiaService.listar());
     }
 
     @PostMapping
-    public Materia guardar(@RequestBody Materia m) {
-        return service.guardar(m);
+    public ResponseEntity<Materia> guardar(@RequestBody Materia materia) {
+        return ResponseEntity.ok(materiaService.guardar(materia));
     }
 
     @PutMapping("/{id}")
-    public Materia actualizar(@PathVariable Long id, @RequestBody Materia m) {
-        return service.actualizar(id, m);
+    public ResponseEntity<Materia> actualizar(@PathVariable Long id, @RequestBody Materia materia) {
+        return ResponseEntity.ok(materiaService.actualizar(id, materia));
     }
 
     @DeleteMapping("/{id}")
-    public void eliminar(@PathVariable Long id) {
-        service.eliminar(id);
+    public ResponseEntity<String> eliminar(@PathVariable Long id) {
+        materiaService.eliminar(id);
+        return ResponseEntity.ok("Materia eliminada correctamente");
     }
 }
